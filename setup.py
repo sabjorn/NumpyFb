@@ -9,5 +9,8 @@ setup(
     author_email='info@sabjorn.net',
     url='https://github.com/sabjorn/NumpyFb',
     license='MIT License',
-    long_description=open('README.md').read(),
+    install_requires=[
+        'numpy',
+    ],
+    long_description=open('README.md').read()
 )
